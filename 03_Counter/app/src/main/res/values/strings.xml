@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="greeting_button">Поздороваться</string>
+    <string name="hello_kitty">Hello Kitty!</string>
+    <string name="crow_counter_button">Считаем ворон</string>
+    <string name="cat_counter_button">Считаем котов</string>
+</resources>

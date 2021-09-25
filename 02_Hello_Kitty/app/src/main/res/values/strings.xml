@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Kitty</string>
+    <string name="hello_kitty_picture_descr">Hello Kitty picture</string>
+    <string name="enter_cat_name_hint">Enter your cat’s name</string>
+    <string name="hello">Hello</string>
+    <string name="default_cat_name">Kitty</string>
+</resources>
