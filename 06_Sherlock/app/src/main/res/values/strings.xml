@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sherlock</string>
+    <string name="sherlock_thinking_image_descr">Sherlock thinking</string>
+    <string name="who">Кто украл два кусочка колбаски?</string>
+    <string name="choose_button_text">Сделать выбор</string>
+    <string name="choose_textview_text">Выберите правильный ответ</string>
+    <string name="radio_crow">Ворона</string>
+    <string name="radio_dog">Мерзкая шавка</string>
+    <string name="radio_cat">Кот Васька</string>
+</resources>
