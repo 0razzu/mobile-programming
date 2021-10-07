@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Orientation</string>
+    <string name="button1_text">Кот (спрячется при повороте)</string>
+    <string name="button2_text">Ворона (не так ловка)</string>
+    <string name="button3_text">Третья кнопка</string>
+    <string name="button4_text">Четвёртая кнопка</string>
+    <string name="button5_text">Пятая кнопка</string>
+    <string name="button6_text">Шестая кнопка</string>
+    <string name="cats">Коты: %d</string>
+    <string name="crows">Вороны: %d</string>
+</resources>
