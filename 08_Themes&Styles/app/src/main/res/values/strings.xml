@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Activities</string>
+    <string name="about_button_text">О программе</string>
+    <string name="about_title">О программе</string>
+    <string name="about_text">
+        У лукоморья дуб зелёный;\n
+        Златая цепь на дубе том:\n
+        И днём и ночью <b>кот учёный</b>\n
+        Всё ходит по цепи кругом;\n
+        Идёт <b>направо</b> — песнь заводит,\n
+        <b>Налево</b> — сказку говорит.
+    </string>
+    <string name="first_activity_title">Передача данных</string>
+    <string name="first_activity_button_text">Передача данных</string>
+    <string name="second_activity_title">Приём данных</string>
+    <string name="second_activity_button_text">Приём данных</string>
+    <string name="to_hint">Кому</string>
+    <string name="from_hint">От кого</string>
+    <string name="description_hint">Описание</string>
+    <string name="send_button_text">Отправить</string>
+    <string name="info_textView_text">%s, вам %s от %s!</string>
+    <string name="to_default">Кто-то</string>
+    <string name="from_default">кого-то</string>
+    <string name="description_default">что-то</string>
+    <string name="alert_dialog_button_text">Диалоговое окно</string>
+    <string name="feed_cat">Покормить кота?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+</resources>
