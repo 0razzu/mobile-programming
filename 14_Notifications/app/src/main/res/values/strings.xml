@@ -1,0 +1,26 @@
+<!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name="second_activity">Вторая активность</string>
+
+    <string name="notification_button">Создать уведомление</string>
+    <string name="notification_button_buttons">Создать уведомление с&nbsp;тремя кнопками</string>
+    <string name="notification_button_long_text">Создать уведомление с&nbsp;длинным текстом</string>
+    <string name="notification_button_big_pic">Создать уведомление с&nbsp;большой картинкой</string>
+
+    <string name="important_channel_name">Важное</string>
+    <string name="important_channel_descr">Наиболее важные уведомления о коте: покормить, погладить и т. д.</string>
+
+    <string name="parcel_channel_name">Посылки</string>
+    <string name="parcel_channel_descr">Уведомления о посылках. Не так важны, как уведомления о коте</string>
+
+    <string name="reminder">Напоминание</string>
+    <string name="time_to_feed">Время кормить кота</string>
+    <string name="time_to_feed_long">Время кормить кота!!! Ну имейте совесть: котенька уже три минуты без еды погибает</string>
+    <string name="parcel">Посылка</string>
+    <string name="parcel_msg">Это я, почтальон Печкин. Принёс для вас посылку</string>
+    <string name="open">Открыть</string>
+    <string name="decline">Отказаться</string>
+    <string name="other">Другой вариант</string>
+</resources>
