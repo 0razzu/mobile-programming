@@ -1,0 +1,8 @@
+<!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+
+<resources>
+    <string name="app_name">Localized App</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="chrysalism" translatable="false">Chrysalism</string>
+    <string name="chrysalism_definition">The&nbsp;tranquility of&nbsp;being indoors during a&nbsp;thunderstorm.</string>
+</resources>
