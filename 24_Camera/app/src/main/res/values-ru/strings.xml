@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Камера</string>
+
     <string name="take_photo">Сделать фото</string>
+    <string name="take_photo_error">Не удалось сделать фото</string>
 </resources>
