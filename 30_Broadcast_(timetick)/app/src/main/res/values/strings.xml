@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Broadcast (timetick)</string>
+
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
+
+    <string name="registered">The receiver has been registered</string>
+    <string name="unregistered">The receiver has been unregistered</string>
+
+    <string name="current_time">Current time is %s</string>
+    <string name="time_format" translatable="false">hh:mm:ss a</string>
+</resources>

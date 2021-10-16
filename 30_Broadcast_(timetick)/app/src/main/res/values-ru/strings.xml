@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Широковещательные сообщения (timetick)</string>
+
+    <string name="register">Включить</string>
+    <string name="unregister">Отключить</string>
+
+    <string name="registered">Приёмник включён</string>
+    <string name="unregistered">Приёмник отключён</string>
+
+    <string name="current_time">Текущее время — %s</string>
+</resources>
