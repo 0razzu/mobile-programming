@@ -1,0 +1,7 @@
+<!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+
+<resources>
+    <string name="app_name">Cat Fragment</string>
+
+    <string name="cat_fragment_caption">This is a&nbsp;fragment for&nbsp;a&nbsp;cat</string>
+</resources>
