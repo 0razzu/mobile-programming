@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GMaps</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="sydney_marker">This is Sydney</string>
+    <string name="sydney_marker_comment">There are lots of cats in here</string>
+</resources>

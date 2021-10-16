@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">ГуглоКарты</string>
+
+    <string name="title_activity_maps">Карты</string>
+
+    <string name="sydney_marker">Это Сидней</string>
+    <string name="sydney_marker_comment">Тут много котов</string>
+</resources>
