@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Broadcast</string>
+
+    <string name="send_message">Send a message</string>
+
+    <string name="send_cat">Send a cat urgently!!!</string>
+
+    <string name="found_message">Found a message: %s</string>
+</resources>

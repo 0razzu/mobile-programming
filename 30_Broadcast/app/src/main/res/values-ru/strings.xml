@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">Широковещательные сообщения</string>
+
+    <string name="send_message">Отправить сообщение</string>
+
+    <string name="send_cat">Срочно пришлите кота!!!</string>
+
+    <string name="found_message">Обнаружено сообщение: %s</string>
+</resources>
