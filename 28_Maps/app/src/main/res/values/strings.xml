@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maps</string>
+
+    <string name="open_maps">Open maps</string>
+    <string name="enter_location">Enter location</string>
+
+    <string name="open_maps_error">Failed to open maps</string>
+</resources>

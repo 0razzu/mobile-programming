@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Карты</string>
+
+    <string name="open_maps">Открыть карты</string>
+    <string name="enter_location">Введите место на карте</string>
+
+    <string name="open_maps_error">Не получилось запустить карты</string>
+</resources>
