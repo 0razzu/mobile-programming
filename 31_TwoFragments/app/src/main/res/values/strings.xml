@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Two Fragments</string>
+
+    <string name="hello_kitty" translatable="false">Hello Kitty</string>
+
+    <string name="counter">Counter</string>
+
+    <string name="plus" translatable="false">+</string>
+    <string name="minus" translatable="false">-</string>
+</resources>
