@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+
+<resources>
+    <string name="app_name">Cat Elections 2</string>
+
+    <string name="ryzhik">Ryzhik</string>
+    <string name="barsik">Barsik</string>
+    <string name="murzik">Murzik</string>
+
+    <string name="cat_descr">Cat description</string>
+    <string name="cat_pic">Cat picture</string>
+
+    <string-array name="cats">
+        <item>Ryzhik is a&nbsp;ginger cat</item>
+        <item>Barsik cheers on&nbsp;Barcelona</item>
+        <item>Murzik is subscribed to&nbsp;Murzilka</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+
+<resources>
+    <string name="app_name">Котовыборы 2</string>
+
+    <string name="ryzhik">Рыжик</string>
+    <string name="barsik">Барсик</string>
+    <string name="murzik">Мурзик</string>
+
+    <string name="cat_descr">Описание кота</string>
+    <string name="cat_pic">Фото кота</string>
+
+    <string-array name="cats">
+        <item>Рыжик&nbsp;— рыжий кот</item>
+        <item>Барсик болеет за&nbsp;Барселону</item>
+        <item>Мурзик выписывает Мурзилку</item>
+    </string-array>
+</resources>
