@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кошкин дом</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_register">Зарегистрировать</string>
+
+    <string name="general_info_text_view">Общая информация</string>
+    <string name="name">Имя</string>
+    <string name="city">Город</string>
+
+    <string name="gender">Пол</string>
+    <string name="gender_male">Кот</string>
+    <string name="gender_female">Кошка</string>
+    <string name="gender_other">Другой</string>
+    <string name="gender_unset">Не задан</string>
+    <string-array name="gender_options">
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+        <item>@string/gender_other</item>
+        <item>@string/gender_unset</item>
+    </string-array>
+
+    <string name="age">Возраст</string>
+</resources>
