@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
+import orazzu.cathouse.data.HotelContract
 
 
 class EditorActivity: AppCompatActivity() {
@@ -15,7 +16,7 @@ class EditorActivity: AppCompatActivity() {
     private lateinit var cityEditText: EditText
     private lateinit var genderSpinner: Spinner
     private lateinit var ageEditText: EditText
-    private var gender: Int = 0
+    private var gender: Int = HotelContract.GuestEntry.GENDER_UNSET
 
 
     private fun configureSpinner() {
@@ -26,22 +27,22 @@ class EditorActivity: AppCompatActivity() {
         genderSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line)
 
         genderSpinner.adapter = genderSpinnerAdapter
-        genderSpinner.setSelection(3)
+        genderSpinner.setSelection(HotelContract.GuestEntry.GENDER_UNSET)
         genderSpinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, pos: Int, id: Long) {
                 val selection = parent?.getItemAtPosition(pos) as String
 
                 if (!TextUtils.isEmpty(selection))
                     gender = when (selection) {
-                        getString(R.string.gender_male) -> 1
-                        getString(R.string.gender_female) -> 2
-                        getString(R.string.gender_other) -> 3
-                        else -> 0
+                        getString(R.string.gender_male) -> HotelContract.GuestEntry.GENDER_MALE
+                        getString(R.string.gender_female) -> HotelContract.GuestEntry.GENDER_FEMALE
+                        getString(R.string.gender_other) -> HotelContract.GuestEntry.GENDER_OTHER
+                        else -> HotelContract.GuestEntry.GENDER_UNSET
                     }
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                gender = 0
+                gender = HotelContract.GuestEntry.GENDER_UNSET
             }
         }
     }

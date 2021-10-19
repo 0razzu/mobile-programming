@@ -23,5 +23,7 @@
         <item>@string/gender_unset</item>
     </string-array>
 
+    <string name="guest_quantity">У нас %d гостей</string>
+
     <string name="age">Возраст</string>
 </resources>
