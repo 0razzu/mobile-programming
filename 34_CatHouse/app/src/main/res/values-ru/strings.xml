@@ -4,9 +4,8 @@
 <resources>
     <string name="app_name">Кошкин дом</string>
 
-    <string name="action_settings">Настройки</string>
     <string name="action_save">Сохранить</string>
-    <string name="action_delete">Удалить</string>
+    <string name="action_clear">Очистить</string>
     <string name="action_register">Зарегистрировать</string>
 
     <string name="general_info_text_view">Общая информация</string>
@@ -30,5 +29,6 @@
     <string name="age">Возраст</string>
 
     <string name="registered">Гость зарегистрирован под&nbsp;идентификатором&nbsp;%d</string>
+    <string name="form_filling_error">Форма заполнена некорректно</string>
     <string name="registration_error">Не&nbsp;удалось зарегистрировать гостя</string>
 </resources>

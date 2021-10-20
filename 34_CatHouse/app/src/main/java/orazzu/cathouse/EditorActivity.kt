@@ -31,7 +31,7 @@ class EditorActivity: AppCompatActivity() {
         genderSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line)
 
         genderSpinner.adapter = genderSpinnerAdapter
-        genderSpinner.setSelection(3)
+        genderSpinner.setSelection(genderSpinnerAdapter.count - 1)
         genderSpinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, pos: Int, id: Long) {
                 val selection = parent?.getItemAtPosition(pos) as String
@@ -55,14 +55,19 @@ class EditorActivity: AppCompatActivity() {
     private fun insertGuest() {
         val name = nameEditText.text.toString().trim()
         val city = cityEditText.text.toString().trim()
-        val age = ageEditText.text.toString().trim().toInt()
-        val db = dbHelper.writableDatabase
+        val age = ageEditText.text.toString().trim()
 
+        val db = dbHelper.writableDatabase
         val values = ContentValues()
-        values.put(GuestEntry.NAME, name)
-        values.put(GuestEntry.CITY, city)
-        values.put(GuestEntry.GENDER, gender)
-        values.put(GuestEntry.AGE, age)
+        try {
+            values.put(GuestEntry.NAME, name)
+            values.put(GuestEntry.CITY, city)
+            values.put(GuestEntry.GENDER, gender)
+            values.put(GuestEntry.AGE, age.toInt())
+        } catch (_: NumberFormatException) {
+            Toast.makeText(this, R.string.form_filling_error, Toast.LENGTH_SHORT).show()
+            return
+        }
 
         val newRowId = db.insert(GuestEntry.TABLE_NAME, null, values)
 
