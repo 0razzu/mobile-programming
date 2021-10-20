@@ -16,6 +16,7 @@ import orazzu.cathouse.data.HotelDbHelper
 
 class MainActivity: AppCompatActivity() {
     private lateinit var dbHelper: HotelDbHelper
+
     private lateinit var dbDataTextView: TextView
 
 
@@ -42,7 +43,8 @@ class MainActivity: AppCompatActivity() {
             dbDataTextView.text =
                 getString(R.string.guest_quantity).format(it.count)
             dbDataTextView.append(
-                GuestEntry._ID + " - " +
+                "\n\n" +
+                        GuestEntry._ID + " - " +
                         GuestEntry.NAME + " - " +
                         GuestEntry.CITY + " - " +
                         GuestEntry.GENDER + " - " +
@@ -80,12 +82,20 @@ class MainActivity: AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById<Toolbar>(R.id.toolbar))
 
+        dbHelper = HotelDbHelper(this)
         dbDataTextView = findViewById(R.id.db_data_text_view)
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener {
             val intent = Intent(this@MainActivity, EditorActivity::class.java)
             startActivity(intent)
         }
+    }
+
+
+    override fun onStart() {
+        super.onStart()
+
+        displayDatabaseInfo()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

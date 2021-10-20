@@ -11,7 +11,9 @@
             android:theme="@style/Theme.CatHouse">
         <activity
                 android:name=".EditorActivity"
-                android:exported="false" />
+                android:exported="false"
+                android:parentActivityName=".MainActivity"
+                android:label="@string/action_register"/>
         <activity
                 android:name=".MainActivity"
                 android:exported="true"

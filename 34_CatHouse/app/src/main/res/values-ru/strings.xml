@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+
 <resources>
     <string name="app_name">Кошкин дом</string>
 
@@ -26,4 +28,7 @@
     <string name="guest_quantity">У нас %d гостей</string>
 
     <string name="age">Возраст</string>
+
+    <string name="registered">Гость зарегистрирован под&nbsp;идентификатором&nbsp;%d</string>
+    <string name="registration_error">Не&nbsp;удалось зарегистрировать гостя</string>
 </resources>

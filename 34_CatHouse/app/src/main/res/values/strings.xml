@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+
 <resources>
     <string name="app_name">Cat House</string>
 
@@ -25,4 +28,7 @@
     <string name="age">Age</string>
 
     <string name="guest_quantity">There are %d guests</string>
+
+    <string name="registered">Registered the&nbsp;guest under&nbsp;the&nbsp;id&nbsp;=&nbsp;%d</string>
+    <string name="registration_error">Failed to&nbsp;register the&nbsp;guest</string>
 </resources>
